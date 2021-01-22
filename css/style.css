@@ -5,3 +5,7 @@ body{
 form {
     color: black;
 }
+
+label {
+    width: 100px;
+}
