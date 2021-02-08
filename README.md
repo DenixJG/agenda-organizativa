@@ -5,6 +5,7 @@ Primer [proyecto] de [Lenguaje_de_Marcas_y_Sistemas_de_Gestión_de_Información]
 [PARTICIPANTES:]
     · Rafael Ionut Popescu [@DenixJG]
     · Pedro Jorquera Hoyas [@Velico]
+    · Denis Andrei Guimpu [@Unpingüino]
 
 [PROFESOR/A]
     · Esther Moreno Montero [@Profesora]
