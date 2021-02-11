@@ -37,6 +37,18 @@ p {
 /* BARRA DE NAVEGACION INDEX.HTML */
 /* TODO: Corregir colores y fuentes, elegir algo bonito y no una aberración cromatica */
 
+/* Indica en que página nos encontramos marcando en el menu el elemento con un cuadrado */
+body#index #navbar ul li:nth-child(1) a,
+body#site-1 #navbar ul li:nth-child(2) a,
+body#site-2 #navbar ul li:nth-child(3) a,
+body#site-3 #navbar ul li:nth-child(4) a,
+body#site-4 #navbar ul li:nth-child(5) a {
+    background-color: #49637e;
+    color: white;
+    border: 2px solid #8f989e;
+    border-radius: 15px;
+}
+
 /* Contenedor del menu de navegación */
 #navbar {
     
@@ -76,11 +88,13 @@ p {
 
 #navbar ul li a {
     display: block;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     text-align: center;
 }
 
-#navbar ul li a:hover { /* Acción al pasar el curor por los sitios de la lista */
+#navbar ul li a:hover { /* Acción al pasar el cursor por los sitios de la lista */
     color: rgb(255, 255, 255);
 }
 
