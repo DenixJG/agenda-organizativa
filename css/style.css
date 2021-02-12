@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+/* Necesario para mantener el footer abajo*/
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     /*TODO: Elegir la fuente a usar*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,7 +23,9 @@ a {
     text-decoration: none;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     padding-bottom: 20px;
 }
 
@@ -51,11 +59,10 @@ body#site-4 #navbar ul li:nth-child(5) a {
 
 /* Contenedor del menu de navegación */
 #navbar {
-    
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #8f989e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #8f989e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #617480); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #617480); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     overflow: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -94,9 +101,24 @@ body#site-4 #navbar ul li:nth-child(5) a {
     text-align: center;
 }
 
-#navbar ul li a:hover { /* Acción al pasar el cursor por los sitios de la lista */
+#navbar ul li a:hover {
+    /* Acción al pasar el cursor por los sitios de la lista */
     color: rgb(255, 255, 255);
 }
 
-/* SIGUENTE PROBELA A RESOLVER */
+/* FOOTER */
 
+/* Footer abajo y dinamico*/
+#footer {
+    position: absolute;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #617480); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #617480); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+}
+
+.footer-content {
+    color: white;
+}
