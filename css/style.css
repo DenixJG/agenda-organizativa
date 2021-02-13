@@ -250,3 +250,10 @@ background-color: darkgrey;
     margin-left: 677px;
 }
 /* Planificacion semanal /////////////////////////// */
+input:invalid {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
