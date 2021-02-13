@@ -1,0 +1,50 @@
+/*CONTENEDOR DEL CALENDARIO*/
+#calendario {
+    width: 60%;
+    margin: auto;
+}
+
+/* Calendario */
+#calendario-content {
+    width: 100%;
+    margin: auto;
+    border-spacing: 10px;
+    text-align: center;
+    background-color: #737092;
+}
+
+/* CUERPO DEL CALENDARIO */
+#calendario-semanas {
+    
+}
+
+/* Tamaño de las celdas de los dias */
+#calendario-semanas th,
+#calendario-semanas td {
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+/* Color de las celdas de los dias */
+#calendario-semanas td {
+    background-color: #b3a9a9;
+    
+}
+
+/* MES */
+
+/* Tamaño del mes */
+#calendario-cabecera .mes {
+    font-size: 2em;
+}
+
+#calendario-cabecera .mes th:first-child:hover {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#calendario-cabecera .mes th:last-child:hover {
+    font-size: 2em;
+    cursor: pointer;
+}
