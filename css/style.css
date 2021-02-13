@@ -106,6 +106,61 @@ body#site-4 #navbar ul li:nth-child(5) a {
     color: rgb(255, 255, 255);
 }
 
+
+/* FORMULARÍO [INDEX] */
+
+
+form{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10%;
+    border-radius: 30px;
+    background-color: #3a4c5d;
+    color: white;
+}
+
+fieldset{
+    border-radius: 1%;
+}
+
+legend{
+    font-size: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+label,textarea{
+    margin-left: 30px;
+}
+
+input:t{
+    color: white;
+    background-color: violet;
+}
+
+.valoración{
+    float: right;
+}
+
+.botones{
+    text-align: center;
+}
+
+button{
+    padding: 2px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+button:nth-child(2){
+    color: red;
+
+
+}
+
 /* FOOTER */
 
 /* Footer abajo y dinamico*/
