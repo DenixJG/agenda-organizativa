@@ -13,8 +13,8 @@ html {
 }
 
 body {
-    /*TODO: Elegir la fuente a usar*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* TODO: No tocar la fuente, se carga el calendario */
+    font: 87.5%/1.5em 'Lato', sans-serif;
     line-height: 1.7em;
 }
 
