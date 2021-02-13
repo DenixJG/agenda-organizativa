@@ -188,3 +188,55 @@ button:nth-child(2){
 .footer-content {
     color: white;
 }
+/* Planificacion semanal /////////////////////////// */
+.mesPS {
+    background-color: #3a4c5d;
+    border-radius: 5px;
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.diasPS {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,200px);
+    gap: 20px;
+}
+.marginPS {
+    width: 85%;
+    margin: auto;
+}
+.diasPS > div {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+.domingoPS {
+    width: 50%;
+    padding-bottom: 100px;
+    margin: auto;
+
+}
+.domingoPS > div {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 200px;
+
+}
+.borde {
+    border-bottom: solid #2c3e50;
+    margin-top: -20px;
+
+}
+.fondoPS {
+background-color: darkgrey;
+}
+
+/* Planificacion semanal /////////////////////////// */
