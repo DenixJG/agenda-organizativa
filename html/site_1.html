@@ -25,7 +25,7 @@
 
 </head>
 
-<body id="site-1">
+<body id="site-1" class="calendar-body">
     <!-- Aquí empieza nuestra primera de tantas aventuras juntos -->
     <header>
         <nav id="navbar">
@@ -42,82 +42,76 @@
         </nav>
     </header>
     <main>
-        <div id="calendario">
-            <table id="calendario-content">
-                <thead id="calendario-cabecera">
-                    <tr class="mes">
-                        <th onclick="alert('Funcionalidad en desarrollo')">&lt;</th>
-                        <th colspan="5">Enero</th>
-                        <th onclick="alert('Funcionalidad en desarrollo')">&gt;</th>
-                    </tr>
-                    <tr class="fila">
-                        <th>Lunes</th>
-                        <th>Martes</th>
-                        <th>Miercoles</th>
-                        <th>Jueves</th>
-                        <th>Viernes</th>
-                        <th>Sabado</th>
-                        <th>Domingo</th>
-                    </tr>
-                </thead>
-                <tbody id="calendario-semanas">
-                    <tr id="fila1">
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr id="fila2">
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                    </tr>
-                    <tr id="fila3">
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                        <td>21</td>
-                    </tr>
-                    <tr id="fila4">
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                        <td>28</td>
-                    </tr>
-                    <tr id="fila5">
-                        <td>29</td>
-                        <td>30</td>
-                        <td>31</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr id="fila6">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <div class="container">
+            <div class="calendar-container">
+                <header>
+                    <div class="day">18</div>
+                    <div class="month">Febrero</div>
+                </header>
+                <table class="calendar">
+                    <thead>
+                        <tr>
+                            <td>Lun</td>
+                            <td>Mar</td>
+                            <td>Mie</td>
+                            <td>Jue</td>
+                            <td>Vie</td>
+                            <td>Sab</td>
+                            <td>Dom</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="prev-month">29</td>
+                            <td id="prev-month">30</td>
+                            <td id="prev-month">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td class="current-day">18</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td id="next-month">1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="ring-left"></div>
+                <div class="ring-right"></div>
+            </div> <!-- end calendar-container -->
+        </div> <!-- end container -->
     </main>
     <footer id="footer">
         <div class="footer-content">
