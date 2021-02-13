@@ -38,39 +38,35 @@
     </header>
     <main>
         
-        <form action="mailto" method="GET">
-            <fieldset>
-                <legend>FORMULARIO [Parte de @Velico]</legend>
-                <label for="name">Nombre:</label>
-                <input type="text" placeholder="Ejemplo: Pedro"><br>
-                <label for="surname">Apellidos:</label>
-                <input type="text" placeholder="Ejemplo: Martinez"><br>
-                <label for="email">Correo electrónico</label>
-                <input type="email" name="" id="" part="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="*****@***.**"><br>
-                <label for="tel">Teléfono</label>
-                <input type="tel"><br>
-                <label for="pass">Contraseña:</label>
-                <input type="password" name="" id="" pattern=".{8}" placeholder="Máximo 8 caracteres"><br>
-                <label for="cumple">Cumpleaños: </label>
-                <input type="datetime-local"><br>
-                <label for="Valoración">¡Valoranos!</label>
-                <input type="range" list="puntuacion" min="1" max="10">
-                <datalist id="puntuacion">
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist><br>
-                <textarea name="" id="" cols="40" rows="5" placeholder="Escribe aquí alguna sugerencia:"></textarea><br>
-                
+        <form action="mailto:7099@iesluisbraille.es" method="GET" class="form">
+            <fieldset class="fieldset">
+                <legend class="legend">FORMULARIO [Parte de @Velico]</legend>
+                <label class="labeltextareacheckbox" for="name">Usuario:</label>
+                <input class="inputselecttextarea" type="text" placeholder="Ejemplo: Velico" required><br>
+                <label class="labeltextareacheckbox" for="email">Correo electrónico</label>
+                <input class="inputselecttextarea" type="email" name="" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="*****@***.**" required><br>
+                <label class="labeltextareacheckbox" for="pass">Contraseña:</label>
+                <input class="inputselecttextarea" type="password" name="" id="" pattern=".{8}" placeholder="Máximo 8 caracteres" required><br>
+                <label class="labeltextareacheckbox" for="tel">Teléfono</label>
+                <input class="inputselecttextarea" type="tel"><br>
+                <label class="labeltextareacheckbox" for="HoraAcceso">Hora de acceso: </label>
+                <input class="inputselecttextarea" type="time" min="08:30" max="14:20"><br>
+                <label class="labeltextareacheckbox" for="MesAcceso">Mes de Acceso: </label>
+                <input class="inputselecttextarea" type="text" pattern="((e|E)nero|(f|F)ebrero|(m|M)(arzo|ayo)|(j|J)(unio|ulio)|(a|A)(gosto|bril)|(s|S)eptiembre|(o|O)ctubre|(n|N)oviembre|(d|D)iciembre)"><br>
+                <label class="labeltextareacheckbox" for="MotivoAcceso">Motivo de acceso: </label>
+                <select name="MotivoAcceso" id="MotivpAcceso" class="inputselecttextarea">
+                    <option value="1">Registrar cita en calendario</option>
+                    <option value="2">Anotar tarea pendiente</option>
+                    <option value="3">Anotar planificación semanal</option>
+                    <option value="4">Otros</option>
+                </select><br>
+                <textarea class="checboxtextarea" name="" id="" cols="40" rows="5" placeholder="Escribe aquí alguna observación:"></textarea><br>
+                <label class="labeltextareacheckbox" for="url">Url: </label>
+                <input class="inputselecttextarea" type="url" pattern="[0-9a-zA-Z\_\@\-\€\$].es$"><br>
+                <input class="checboxtextarea" type="checkbox" checked>
+                <label class="condiciones" for="condiciones" class="condiciones">Acepto las condiciones de acceso</label><br>
                 <div class="botones">
-                    <button>Enviar</button> <button>Borrar</button>
+                    <button type="submit">Entrada</button> <button type="reset">Reinicio</button>
                 </div>
 
             </fieldset>

@@ -110,35 +110,46 @@ body#site-4 #navbar ul li:nth-child(5) a {
 /* FORMULARÍO [INDEX] */
 
 
-form{
+.form{
     width: 80%;
     margin: auto;
     padding: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 30px;
     background-color: #3a4c5d;
     color: white;
 }
 
-fieldset{
+.fieldset{
     border-radius: 1%;
 }
 
-legend{
+.legend{
     font-size: 20px;
 }
 
-input{
+.inputselecttextarea{
     margin-top: 20px;
 }
 
-label,textarea{
+.labeltextareacheckbox{
+    margin-left: 30px;
+}
+
+
+
+.checboxtextarea{
+    margin-top: 20px;
     margin-left: 30px;
 }
 
 input:t{
     color: white;
     background-color: violet;
+}
+
+.condiciones{
+    margin-left: 0px;
 }
 
 .valoración{
