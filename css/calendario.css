@@ -1,23 +1,30 @@
+/* BODY */
+
+/* Clase para personalizar el body del calendario mensual */
 .calendar-body {
     display: grid;
     margin: 0;
 }
 
+/* Bordes de la tabla */
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
+/* Padding de los td de la tabla */
 td {
     padding: 0;
 }
 
+/* Contenedor del calendario */
 .calendar-container {
     position: relative;
     width: 60%;
     margin: auto;
 }
 
+/* Edicion de la parte del header del contendero del calendario */
 .calendar-container header {
     border-radius: 1em 1em 0 0;
     background: #ebf5c1;
@@ -27,18 +34,21 @@ td {
     box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Formato de las letras de los dias */
 .day {
     font-size: 8em;
     font-weight: 900;
     line-height: 1em;
 }
 
+/* Formato de las letras de los meses */
 .month {
     font-size: 4em;
     line-height: 1em;
     text-transform: lowercase;
 }
 
+/* Calendario completo, dias, semanas */
 .calendar {
     background: #fe9f9d;
     border-radius: 0 0 1em 1em;
@@ -48,11 +58,13 @@ td {
     width: 100%;
 }
 
+/* Calendario parte de los dias */
 .calendar thead {
     font-weight: 700;
     text-transform: uppercase;
 }
 
+/* Nombre de los dias, lunes, martes, etc. */
 #days {
     color: black;
     padding: 0.5em 1em;
@@ -62,6 +74,7 @@ td {
     height: 60px;
 }
 
+/* Posicion y separacion de las casillas de los dias */
 .calendar td {
     padding: 0.5em 1em;
     text-align: center;
@@ -72,39 +85,41 @@ td {
     color: white;
 }
 
+/* Accion al pasar el raton por las casillas de los dias */
 .calendar tbody td:hover {
     background: #cacaca;
     color: black;
 }
 
+/* Domingos de otro color */
 .calendar tbody td:nth-child(7n) {
     color: black;
 }
 
+/* Semanas impares de otro color */
 .calendar tbody tr:nth-child(odd) {
     background-color: rgb(168, 101, 101);
     color: white;
 }
 
-.current-day {
-    color: #e66b6b;
-}
-
+/* Casillas del mes previo y el mes siguiente de otro color */
 #prev-month,
 #next-month {
     color: #cacaca;
 }
 
+/* Si el ultimo mes tiene un domingo ponerlo en otro color */
 #next-month:last-child {
     color: black;
 }
 
+/* Accion al pasar el raton por las casillas de los dias de otros meses */
 #prev-month:hover,
 #next-month:hover {
     color: black;
 }
 
-/* Espiral calendario */
+/* Posicion anillas del calendario */
 .ring-left,
 .ring-right {
     position: absolute;
@@ -118,13 +133,13 @@ td {
     right: 2em;
 }
 
+/* Forma de las anillas del calendario, sombras, contenido, tamaño */
 .ring-left:before,
 .ring-left:after,
 .ring-right:before,
 .ring-right:after {
     background: #fff;
     border-radius: 4px;
-    -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
     content: '';
     display: inline-block;
