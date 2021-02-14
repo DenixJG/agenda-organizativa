@@ -311,3 +311,50 @@ input,
 input:valid {
     border-color: #ccc;
 }
+/* Ando flexeando */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex > div  {
+    margin: 20px;
+    border-radius: 5px;
+}
+.div1 {
+width: 900px;
+height: 300px;
+background-color: antiquewhite;
+}
+.div2 {
+    width: 550px;
+    height: 200px;
+    background-color: rgb(153, 187, 250);
+}
+.div3 {
+    width: 500px;
+    height: 300px;
+    background-color: thistle;
+}
+.div4 {
+    width: 890px;
+    height: 200px;
+    background-color: rgb(250, 153, 136);
+}
+.div5 {
+    width: 300px;
+    height: 100px;
+    background-color: palegreen;
+}
+.div6 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(177, 129, 255);
+}
+.titulo {
+    font-family: 'Segoe UI';
+    margin: 10px;
+}
+
+/* Ando flexeando */
