@@ -44,19 +44,20 @@
         
         <form action="mailto:7099@iesluisbraille.es" method="GET" class="form">
             <fieldset class="fieldset">
-                <legend class="legend">FORMULARIO [Parte de @Velico]</legend>
+                <legend class="legend">FORMULARIO DE ACCESO</legend>
                 <label class="labeltextareacheckbox" for="name">Usuario:</label>
-                <input class="inputselecttextarea" type="text" placeholder="Ejemplo: Velico" ><br>
-                <label class="labeltextareacheckbox" for="email">Correo electrónico</label>
-                <input class="inputselecttextarea" type="email" name="" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="*****@***.**" ><br>
+                <input class="inputselecttextarea" type="text" placeholder="Ejemplo: User_1232" required><br>
+                <label class="labeltextareacheckbox" for="email">Correo electrónico: </label>
+                <input class="inputselecttextarea" type="email" name="" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="*****@***.**" required><br>
                 <label class="labeltextareacheckbox" for="pass">Contraseña:</label>
-                <input class="inputselecttextarea" type="password" name="" id="" pattern=".{8}" placeholder="Máximo 8 caracteres"><br>
-                <label class="labeltextareacheckbox" for="tel">Teléfono</label>
-                <input class="inputselecttextarea" type="tel"><br>
+                <input class="inputselecttextarea" type="password" name="" id="" pattern="[a-z0-9._%+-]{0,8}" placeholder="Máximo 8 caracteres" required><br>
+                <img src="assets/img/form.png" alt="" class="imagenform">
+                <label class="labeltextareacheckbox" for="tel">Teléfono: </label>
+                <input class="inputselecttextarea" type="tel" pattern="^(\+34|34|)?6([0-9]){8}$" placeholder="Ejemplo: +346********"><br>
                 <label class="labeltextareacheckbox" for="HoraAcceso">Hora de acceso: </label>
                 <input class="inputselecttextarea" type="time" min="08:30" max="14:20"><br>
                 <label class="labeltextareacheckbox" for="MesAcceso">Mes de Acceso: </label>
-                <input class="inputselecttextarea" type="text" pattern="((e|E)nero|(f|F)ebrero|(m|M)(arzo|ayo)|(j|J)(unio|ulio)|(a|A)(gosto|bril)|(s|S)eptiembre|(o|O)ctubre|(n|N)oviembre|(d|D)iciembre)"><br>
+                <input class="inputselecttextarea" type="text" pattern="((e|E)nero|(f|F)ebrero|(m|M)(arzo|ayo)|(j|J)(unio|ulio)|(a|A)(gosto|bril)|(s|S)eptiembre|(o|O)ctubre|(n|N)oviembre|(d|D)iciembre)" placeholder="Ejemplo: E/enero"><br>
                 <label class="labeltextareacheckbox" for="MotivoAcceso">Motivo de acceso: </label>
                 <select name="MotivoAcceso" id="MotivpAcceso" class="inputselecttextarea">
                     <option value="1">Registrar cita en calendario</option>
@@ -66,7 +67,7 @@
                 </select><br>
                 <textarea class="checboxtextarea" name="" id="" cols="40" rows="5" placeholder="Escribe aquí alguna observación:"></textarea><br>
                 <label class="labeltextareacheckbox" for="url">Url: </label>
-                <input class="inputselecttextarea" type="text" pattern="www\.(sex.+|(?!sex).*)+(\.es|\.com|\.edu)$"><br>
+                <input class="inputselecttextarea" type="text" pattern="www\.(sex.+|(?!sex).*)+(\.es|\.com|\.edu)$" placeholder="Dominios .es, .com o .edu"><br>
                 <input class="checboxtextarea" type="checkbox" checked>
                 <label class="condiciones" for="condiciones" class="condiciones">Acepto las condiciones de acceso</label><br>
                 <div class="botones">
