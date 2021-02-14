@@ -281,7 +281,7 @@ h2 {
 .marginPS {
     width: 85%;
     margin: auto;
-    min-height: 52vw; /*TODO: Solucion al problema del footer*/
+    min-height: 55vw; /*TODO: Solucion al problema del footer*/
     margin-bottom: 50px;
 }
 
