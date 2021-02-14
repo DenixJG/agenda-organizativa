@@ -1,0 +1,115 @@
+main {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.2em;
+}
+
+.container-tareas {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal-input {
+	padding: 50px 0;
+	width: 100%;
+}
+
+.formulario-tareas {
+	color: #212121;
+	text-align: center;
+}
+
+.formulario-tareas input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid;
+	outline: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.2em;
+}
+
+.formulario-tareas input[type=text].error {
+	border-bottom: 2px solid #d32f2f;
+	color: red;
+}
+
+.btn-agregar {
+	display: inline-block;
+	color: #3991c4;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn-agregar:hover {
+	cursor: pointer;
+	background-color: #3991c4;
+	color: white;
+}
+
+/* - Tareas - */
+.tareas-lista .lista {
+	list-style: none;
+}
+
+.lista li {
+	border-bottom: 1px solid #B6B6B6;
+	margin-top: 5px;
+}
+
+.lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	width: fit-content;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.btn-borrar {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	color: #f70909;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.btn-borrar:hover {
+	background-color: #d32f2f;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-completado {
+	float: right;
+	margin-top: 10px;
+	padding: 10px;
+	margin-right: 15px;
+	color: #2fd360;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.btn-completado:hover {
+	background-color: #2fd360;
+	color: white;
+	font-weight: bold;
+}
+
+.tarea-completada {
+	text-decoration: line-through;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+}
+
+.lista .btn-borrar:hover,
+.lista .btn-completado:hover {
+	cursor: pointer;
+}

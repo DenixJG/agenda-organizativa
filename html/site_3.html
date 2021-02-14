@@ -16,6 +16,7 @@
 
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tareas.css">
     
     <!-- ICONO -->
     <link rel="shortcut icon" href="../assets/img/agenda.png" type="image/png">
@@ -32,16 +33,38 @@
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="./site_1.html">Calendario Mensual</a></li>
                     <li><a href="./site_2.html">Planificación semanal</a></li>
-                    <li><a href="#">Sitio 3</a></li>
+                    <li><a href="#">Lista de tareas</a></li>
                     <li><a href="site_4.html">Bitacora</a></li>
-
-
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <p>Aquí va el contenido</p>
+        <div class="principal-input">
+            <div class="container-tareas">
+                <form class="formulario-tareas" action="">
+                    <input type="text" id="tareaInput" placeholder="Agrega tu tarea" onchange="comprobarInput();">
+                    <input type="button" class="btn-agregar" value="Agregar Tarea" onclick="agregarTarea();">
+                </form>
+            </div>
+        </div>
+        <div class="tareas-lista">
+            <div class="container-tareas">
+                <ol class="lista" id="lista">
+                    <li>
+                        <div onclick="borrarTarea(this);" class="btn-borrar">Borrar</div>
+                        <div onclick="completarTarea(this);" class="btn-completado">Completar</div>
+                        <a href="#">Completar la lista de tareas para el trabajo de lenguaje de marcas</a>
+                    </li>
+                    <li class="tarea-completada">
+                        <div onclick="borrarTarea(this);" class="btn-borrar">Borrar</div>
+                        <div onclick="completarTarea(this);" class="btn-completado">Completar</div>
+                        <a href="#">Hacer el index del proyecto de lenguaje de marcas</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <script src="../js/main.js"></script>
     </main>
     <footer id="footer">
         <div class="footer-content">
