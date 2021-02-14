@@ -126,6 +126,7 @@ body#site-4 #navbar ul li:nth-child(5) a {
 
 .legend{
     font-size: 20px;
+    color: #e95b09;
 }
 
 .inputselecttextarea{
@@ -143,18 +144,26 @@ body#site-4 #navbar ul li:nth-child(5) a {
     margin-left: 30px;
 }
 
-input:t{
-    color: white;
-    background-color: violet;
+.inputselecttextarea:hover{
+    background-color: #21799f;
+    color: #e95b09;
+}
+
+.inputselecttextarea:hover::placeholder{
+    color: #e95b09;
+}
+textarea:hover{
+background-color: #21799f;
+}
+
+textarea:hover::placeholder{
+    color: #e95b09;
 }
 
 .condiciones{
     margin-left: 0px;
 }
 
-.valoración{
-    float: right;
-}
 
 .botones{
     text-align: center;
@@ -170,6 +179,14 @@ button:nth-child(2){
     color: red;
 
 
+}
+
+.imagenform{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -100px;
 }
 
 /* FOOTER */
