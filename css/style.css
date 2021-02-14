@@ -338,11 +338,14 @@ input:valid {
 .flex > div  {
     margin: 20px;
     border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: #2c3e50;
 }
 .div1 {
 width: 900px;
 height: 300px;
-background-color: antiquewhite;
+background-color: rgb(150, 211, 235);
 }
 .div2 {
     width: 550px;
@@ -370,8 +373,11 @@ background-color: antiquewhite;
     background-color: rgb(177, 129, 255);
 }
 .titulo {
-    font-family: 'Segoe UI';
+    font-family: cursive;
     margin: 10px;
+}
+.fondo {
+    background-color: rgb(243, 234, 229);
 }
 
 /* Ando flexeando */
