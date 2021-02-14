@@ -145,7 +145,7 @@ body#site-4 #navbar ul li:nth-child(5) a {
 }
 
 .inputselecttextarea:hover{
-    background-color: #21799f;
+    background-color: #343434;
     color: #e95b09;
 }
 
@@ -153,7 +153,7 @@ body#site-4 #navbar ul li:nth-child(5) a {
     color: #e95b09;
 }
 textarea:hover{
-background-color: #21799f;
+background-color: #343434;
 }
 
 textarea:hover::placeholder{
