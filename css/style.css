@@ -145,7 +145,7 @@ body#site-4 #navbar ul li:nth-child(5) a {
 }
 
 .inputselecttextarea:hover{
-    background-color: #21799f;
+    background-color: #343434;
     color: #e95b09;
 }
 
@@ -153,7 +153,7 @@ body#site-4 #navbar ul li:nth-child(5) a {
     color: #e95b09;
 }
 textarea:hover{
-background-color: #21799f;
+background-color: #343434;
 }
 
 textarea:hover::placeholder{
@@ -281,7 +281,7 @@ h2 {
 .marginPS {
     width: 85%;
     margin: auto;
-    min-height: 52vw; /*TODO: Solucion al problema del footer*/
+    min-height: 55vw; /*TODO: Solucion al problema del footer*/
     margin-bottom: 50px;
 }
 
@@ -366,13 +366,13 @@ background-color: rgb(150, 211, 235);
     background-color: rgb(250, 153, 136);
 }
 .div5 {
-    width: 300px;
-    height: 100px;
+    width: 600px;
+    height: 200px;
     background-color: palegreen;
 }
 .div6 {
-    width: 300px;
-    height: 100px;
+    width: 800px;
+    height: 200px;
     background-color: rgb(177, 129, 255);
 }
 .titulo {
