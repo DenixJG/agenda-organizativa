@@ -30,6 +30,7 @@ function agregarTarea() {
     if (tarea === '') {
         tareaInput.setAttribute('placeholder', 'Agrega una tarea valida');
         tareaInput.className = 'error';
+        tareaInput.focus();
         return false;
     }
 
